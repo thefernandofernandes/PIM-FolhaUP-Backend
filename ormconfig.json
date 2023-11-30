@@ -1,0 +1,14 @@
+{
+   "type": "postgres",
+   "url": "berry.db.elephantsql.com",
+   "port": 5432,
+   "username": "fazovfha",
+   "password": "4I2IfDewtbUkw9y7P7W2lol-D3B9vxW6",
+   "database": "fazovfha",
+   "synchronize": true,
+   "logging": false,
+   "entities": ["src/entity/**/*.ts"],      
+   "cli": {
+      "entitiesDir": "src/entity"      
+   }
+}
